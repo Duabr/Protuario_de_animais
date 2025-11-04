@@ -7,7 +7,7 @@ public class ClinicaVeterinariaApp {
     public static void main(String[] args) {
 
         Veterinario vet1 = new Veterinario("Dra. Mariana Silva", "12345-SP", "Clínica Geral");
-        Animal animal1 = new Animal("Rex", "Cachorrooo", "Labrador", 5);
+        Animal animal1 = new Animal("Rex", "Cachorro", "Labrador", 5);
 
         Consulta consulta1 = new Consulta(LocalDate.of(2025, 3, 15),
                 "Check-up anual", vet1, "Antirrábica");

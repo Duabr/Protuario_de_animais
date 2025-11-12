@@ -19,7 +19,7 @@ public class Consulta {
     public Veterinario getVeterinario() { return veterinario; }
     public String getVacinaAplicada() { return vacinaAplicada; }
 
-    @Override
+    // @Override
     public String toString() {
         return "Consulta em " + data + " - " + descricao +
                (vacinaAplicada != null ? " | Vacina: " + vacinaAplicada : "") +

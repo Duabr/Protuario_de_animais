@@ -7,7 +7,7 @@ public class RelatorioConsulta extends Relatorio {
         this.consulta = consulta;
     }
 
-    @Override
+    // @Override
     public void emitirRelatorio() {
         System.out.println("=== RELATÓRIO DE CONSULTA ===");
         System.out.println(consulta);

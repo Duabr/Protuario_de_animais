@@ -26,7 +26,7 @@ public class Animal {
 
     public String getNome() { return nome; }
 
-    @Override
+    // @Override
     public String toString() {
         return "Animal: " + nome + " (" + especie + " - " + raca + ", " + idade + " anos)";
     }

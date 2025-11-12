@@ -7,7 +7,7 @@ public class RelatorioAnimal extends Relatorio {
         this.animal = animal;
     }
 
-    @Override
+    // @Override
     public void emitirRelatorio() {
         System.out.println("=== RELATÓRIO DO ANIMAL ===");
         System.out.println(animal);

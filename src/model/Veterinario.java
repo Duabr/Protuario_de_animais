@@ -13,7 +13,7 @@ public class Veterinario {
 
     public String getNome() { return nome; }
 
-    @Override
+    // @Override
     public String toString() {
         return nome + " (CRMV: " + crmv + ", Esp.: " + especialidade + ")";
     }
